@@ -45,7 +45,7 @@ RSpec.describe User, type: :model do
     end
   end
 
-  it "email adderss should be unique" do
+  it "email address should be unique" do
     duplicate_user = user.dup
     duplicate_user.email = user.email.upcase
     user.save
