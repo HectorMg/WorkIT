@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
 
-  root 'landing_page#landing'
+ # root 'landing_page#landing'
 
 end
